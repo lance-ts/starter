@@ -5,9 +5,9 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@nuxt/icon',
+    '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
-    'shadcn-nuxt',
-    '@nuxt/fonts'
+    'shadcn-nuxt'
   ],
   shadcn: {
     prefix: ''
