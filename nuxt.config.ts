@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     '@nuxtjs/tailwindcss',
-    'shadcn-nuxt'
+    'shadcn-nuxt',
+    '@nuxt/fonts'
   ],
   shadcn: {
     prefix: ''
