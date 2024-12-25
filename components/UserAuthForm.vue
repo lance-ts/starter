@@ -29,7 +29,7 @@ const onSubmit = async () => {
           />
         </div>
         <Button :disabled="isLoading">
-          <Icon v-if="isLoading" name="lucide:spinner" class="mr-2 h-4 w-4 animate-spin" />
+          <Icon v-if="isLoading" name="lucide:loader" class="mr-2 h-4 w-4 animate-spin" />
           Sign In with Email
         </Button>
       </div>
@@ -45,7 +45,7 @@ const onSubmit = async () => {
       </div>
     </div>
     <Button variant="outline" type="button" :disabled="isLoading">
-      <Icon v-if="isLoading" name="lucide:spinner" class="mr-2 h-4 w-4 animate-spin" />
+      <Icon v-if="isLoading" name="lucide:loader" class="mr-2 h-4 w-4 animate-spin" />
       <Icon v-else name="radix-icons:github-logo" class="mr-2 h-4 w-4" />
       GitHub
     </Button>
